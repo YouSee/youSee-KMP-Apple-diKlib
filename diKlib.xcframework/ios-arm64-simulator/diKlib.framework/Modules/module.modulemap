@@ -1,0 +1,8 @@
+framework module "diKlib" {
+    umbrella header "diKlib.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
